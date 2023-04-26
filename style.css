@@ -178,6 +178,70 @@ h1 {
 }
 
 /* ================================================= */
+/* --------------Formulaire de contact-------------- */
+/* ================================================= */
+.formulaire {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.contactez-nous {
+  max-width: 43.75rem;
+}
+
+.contactez-nous > h1 {
+  font-weight: 500;
+}
+
+.contactez-nous > p {
+  font-weight: 400;
+}
+form {
+  background-color: rgb(24, 24, 24);
+  border-radius: 0.375rem;
+  padding: 0.94rem 50px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  min-height: 5.18rem;
+  margin-top: 1.6rem;
+}
+
+form div > label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: rgb(184, 184, 184);
+}
+
+
+form div > select option {
+  background-color: #ff7f00;
+  color: black;
+}
+
+form .wrapper-btn {
+  align-items: center;
+  margin-top: 1.25rem;
+}
+
+form button {
+  padding: 0.75rem 1.2rem;
+  font-weight: 500;
+  background-color: #ff7f00;
+  border: rgba(48.48.48.05) solid 1px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: white;
+  transition: background-color 0.3s ease;
+}
+form button:hover {
+  background-color: #f69e47;
+}
+
+/* ================================================= */
 /* --------------Section Contact ------------------- */
 /* ================================================= */
 
