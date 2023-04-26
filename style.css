@@ -174,6 +174,86 @@ h1 {
 }
 
 /* ================================================= */
+/* ---------------- Footer ------------------------- */
+/* ================================================= */
+
+#footer {
+  position: relative;
+  background: #000000;
+  padding: 1.875rem 0 0.625rem;
+}
+#footer .col-md-6 {
+  border-right: none;
+}
+#footer .col-md-6:last-child {
+  border-right: none;
+}
+#footer .copyright {
+  margin-bottom: 1.875rem;
+  text-align: center;
+}
+#footer .copyright p {
+  color: #dfd8da;
+  margin-bottom: 0.625rem;
+}
+#footer .copyright p:last-child {
+  margin-bottom: 0;
+}
+#footer .copyright a {
+  font-weight: 600;
+  color: #dfd8da;
+}
+#footer .copyright a:hover {
+  color: #ffffff;
+}
+#footer .icon {
+  position: relative;
+}
+#footer .icon li {
+  display: inline-block;
+}
+#footer .icon li a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  margin-right: 0.5rem;
+  text-decoration: none;
+  border-radius: 1.25rem;
+  color: #ffffff;
+  background-color: #ff7f00;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+#footer .icon li a:hover {
+  color: #ff7f00;
+  background-color: #ffffff;
+}
+#footer .footer-chips {
+  display: inline-block;
+  max-width: clamp(20rem, 25vw + 1rem, 34.4rem);
+}
+.info-addiction {
+  color: #ff7f00;
+}
+
+#footer .footer-bottom {
+  font-size: 0.8rem;
+}
+#footer .footer-bottom,
+#footer .footer-bottom a {
+  margin-top: 1.5rem;
+  color: #dfd8da;
+}
+#footer .footer-bottom a {
+  color: #ff7f00;
+}
+#footer .footer-bottom a:hover {
+  color: #e4a61a;
+}
+
+/* ================================================= */
 /* ---------------- MEDIA QUERY -------------------- */
 /* ================================================= */
 
