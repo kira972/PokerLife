@@ -1,0 +1,83 @@
+/* ================================================= */
+/* ---------------- Reset CSS ---------------------- */
+/* ================================================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", New Century Schoolbook, TeX Gyre Schola, serif;
+}
+body {
+  width: 100%;
+  font-size: 16px;
+}
+
+/* ================================================= */
+/* ---------------- Navbar ------------------------- */
+/* ================================================= */
+
+nav {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background: #000000;
+  text-align: center;
+  -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.45);
+}
+
+nav .nav-link {
+  text-decoration: none;
+  display: inline-block;
+  color: #ff7f00;
+  font-weight: 600;
+  outline: none;
+}
+
+nav .navbar-nav .nav-link.active {
+  color: #ffffff;
+  border-width: 0.125rem;
+  border-color: #e4a61a;
+  border-radius: 0.625rem;
+}
+nav .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+nav .navbar-nav .nav-link.active:hover {
+  color: #ff7f00;
+}
+
+.logo {
+  width: clamp(18rem, 19vw + 1rem, 24.3rem);
+}
+
+.logo-decoration {
+  width: 10.6rem;
+}
+
+nav.navbar a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+nav.navbar a span {
+  color: #dddddd;
+  transition: color 0.3s ease;
+}
+nav.navbar a span:hover {
+  color: #ffffff;
+}
+
+/* ================================================= */
+/* ---------------- MEDIA QUERY -------------------- */
+/* ================================================= */
+
+@media screen and (max-width: 990px) {
+  nav button.navbar-toggler {
+    background-color: rgb(36, 36, 36);
+    background-color: #ff7f00;
+  }
+}
